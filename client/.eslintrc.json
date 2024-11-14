@@ -1,9 +1,6 @@
 {
-  "extends": [
-    "next/core-web-vitals",
-    "next/typescript"
-  ],
+  "extends": ["next/core-web-vitals", "next/typescript"],
   "rules": {
-    "@typescript-eslint/allowObjectTypes": "always"
+    "@typescript-eslint/allowObjectTypes": "off"  // Or use "warn" or "error" based on your preference
   }
 }
